@@ -1,0 +1,211 @@
+body{
+	margin: 0;
+	font-family: 'Playfair Display',serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+	
+}
+/*header start*/
+.main{
+	width: 100%;
+	margin: 0 auto;
+	padding: 3% 0;
+	overflow: hidden;
+
+}
+.main_wrap{
+	margin:0 auto;
+    width: 90%;
+    overflow: hidden;
+ 
+}
+.logo{
+	margin: 0 auto;
+	width: 10%;
+	float: left;
+
+}
+.c_img{
+	width: 100%;
+}
+.menu{
+	width: 55%;
+	margin: 3px auto;
+	float: right;
+	
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.menu ul li {
+	margin: 0 0;
+	display: inline-block;
+	float: left;
+	
+}
+.menu ul li a {
+	margin: 0 125px 0 0;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+
+
+}
+.menu ul li:last-child a {
+	margin-right: 0;
+}
+
+/*header end*/
+/*top-post start*/
+.blog{
+	margin: 5% auto;
+	padding: 20px;
+	width: 80%;
+	}
+.common_p{
+	font-family: "Playfair Display",sans-serif;
+	margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    
+}
+.common_h{
+	font-size: 32px;
+}
+.light_p{
+	margin-top: 20px;
+	font-family: "Ubuntu",sans-serif;
+	color: #c7c1b6;
+	text-transform: uppercase;
+}
+
+/*top-post end*/
+/*blog start*/
+.blog_wrap{
+
+	width: 100%;
+	overflow: hidden;
+	
+}
+.content1{
+	margin: 0;
+	padding: 20px 0;
+	width: 47%;
+	float: left;
+	
+
+}
+.content1:nth-child(even) {
+	margin-left: 5%;
+}
+
+/*blog end*/
+/*newsletter start*/
+.news{
+	
+	background-color:#f0f0f0 ;
+	
+}
+.form{
+	
+	margin: 0 auto;
+	padding: 70px 0;
+	width: 60%;
+	text-align: center;
+}
+
+.nform{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 60px;
+}
+.sform{
+	position: relative;
+	margin: 0 auto;
+	width: 430px;
+	
+}
+.sform input{
+	padding: 0 45px 0 5px;
+	width: 380px;
+	height: 45px;
+	font-family: "Playfair Display",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    background: transparent;
+    color: #626262;
+    border: none;
+    border-bottom: 1px solid #333333;
+}
+.sform input:focus{
+	outline: 0;
+}
+.sform button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+
+/*newsletter end*/
+/*button*/
+.load{
+	text-align: center;
+	padding: 20px 0;
+	
+}
+.blog button{
+	width: 162px;
+	height: 52px;
+	font-family: "Playfair Display",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    background: transparent;
+    color: #626262;
+    border: 2px solid #626262;
+
+}
+/*button*/
+/*footer start*/
+.footer_wrap{
+	margin: 0 65px 0 145px;
+	width: 90%;
+	overflow: hidden;
+}
+.ftr{
+	margin-top: 1322px;
+	background-color:#f0f0f0 ;
+}
+.l_footer{
+	width: 300px;
+	float: left;
+	display: inline-block;
+}
+.r_footer{
+	padding-right: 30px ;
+	width: 200px;
+	float: right;
+	display: inline-block;
+}
+.footer_h{
+	color: black;
+	display: inline;
+	font-size: 17px;
+}
+
+span{
+	margin-left: 15px;
+}
+.footer_h img {
+	margin: 0 12px;
+}
+/*footer end*/
